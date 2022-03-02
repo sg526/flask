@@ -1,0 +1,13 @@
+<html>
+
+<a href='http://localhost:5000/clear'> destroy cookie </a>
+
+<h2> <center> Select Number To Generate The TimesTable of: 
+<br>
+<br>
+
+{% for i in range(1,10) %}
+		<a href="http://localhost:5000/page2/{{i}}"> {{i}} </a> <br>
+{% endfor %}
+
+</html>
